@@ -1,2 +1,4 @@
-package dev.tylerdclark;public class UnsortedException {
+package dev.tylerdclark;
+
+public class UnsortedException extends Exception {
 }
