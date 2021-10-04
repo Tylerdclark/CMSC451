@@ -1,5 +1,6 @@
 package dev.tylerdclark;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
@@ -47,7 +48,6 @@ public class QuickSort implements SortInterface {
      */
     @Override
     public void iterativeSort(int[] list) throws UnsortedException {
-
         startTime = System.nanoTime();
         iterativeQuicksort(list, 0, list.length - 1);
         endTime = System.nanoTime();

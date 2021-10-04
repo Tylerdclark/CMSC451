@@ -80,7 +80,7 @@ public class BenchmarkSorts {
             //run the sort 50 times (recursively and iteratively)
             for (int j = 0; j < DATASET_COUNT; j++) {
                 int[] data = getData(dataSize);
-                int[] data2 = data; //same data but not a reference
+                int[] data2 = data.clone(); //same data but not a reference
                 try {
                     recursiveSort.recursiveSort(data);
                 } catch (UnsortedException e) {
