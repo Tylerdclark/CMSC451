@@ -59,7 +59,7 @@ public class Utilities {
      * https://www.baeldung.com/java-jvm-warmup
      */
     protected static void JVMWarmUp() {
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             ManualClass manualClass = new ManualClass();
             manualClass.method();
         }

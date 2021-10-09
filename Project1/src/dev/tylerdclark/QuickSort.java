@@ -144,6 +144,7 @@ public class QuickSort implements SortInterface {
     private int partition(int[] arr, int low, int high) {
         int pivot = arr[high];
         int i = (low - 1); // index of smaller element
+
         for (int j = low; j <= high - 1; j++) {
             count++;
             // If current element is smaller than or

@@ -217,7 +217,7 @@ public class BenchmarkSorts {
     }
 
     /**
-     * helper function for {@link #parseLineData(int, String[], double[], double[], Object[][], Object[])} actually
+     * helper function for {@link #parseStringData(String, int)} actually
      * calculates average, and coefficient of variance for the data before saving it to be displayed
      * @param index which line
      * @param stringData arr of strings
